@@ -1,3 +1,4 @@
+
 def is_surrounded(board, row_idx, col_idx):
     cols = len(board[0])
     col_left = col_idx - 1
