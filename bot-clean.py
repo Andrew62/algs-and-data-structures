@@ -75,8 +75,8 @@ def decide_move(posr: int, posc: int, board: Board) -> str:
         return up
     elif 0 < delta_c:
         return right
-    elif 0 > delta_c:
-        return left
+    #elif 0 > delta_c:
+    return left
 
         
 def next_move(posr: int, posc: int, board: Board):
