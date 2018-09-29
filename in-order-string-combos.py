@@ -41,7 +41,7 @@ class ComboBuilder(object):
     def build_combos(self, in_str):
         self.in_order_string_combos(in_str)
         self.dfs()
-        return(self.combos)
+        return self.combos
 
     def dfs(self, nodes=None, depth=[]):
         if not nodes:
