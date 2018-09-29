@@ -57,6 +57,7 @@ def in_order_string_combos(s):
     cb = ComboBuilder()
     return cb.build_combos(s)
 
+
 if __name__ == "__main__":
     for combo in in_order_string_combos('abcde'):
         print(combo)
